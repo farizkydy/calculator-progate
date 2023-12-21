@@ -7,15 +7,8 @@ const res = document.getElementById("result");
 const toast = document.getElementById("toast");
 
 function calculate(value) {
-  const calculatedValue = eval(value || null);
-  if (isNaN(calculatedValue)) {
-    res.value = "Can't divide 0 with 0";
-    setTimeout(() => {
-      res.value = "";
-    }, 1300);
-  } else {
-    res.value = calculatedValue;
-  }
+  // write your code here
+  console.log(value)
 }
 
 // Swaps the stylesheet to achieve dark mode.
